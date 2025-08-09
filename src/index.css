@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  background: linear-gradient(to left, #000000, #000000, #14203a);
+  /* background: black; */
+
+}
+
+html{
+  scroll-behavior: smooth;
+}
