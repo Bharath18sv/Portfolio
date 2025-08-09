@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -28,11 +29,12 @@ function App() {
         <Skills />
       </section>
       <section id="projects">
-        <Projects />
+        {/* <Projects /> */}
       </section>
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
     </>
   );
 }

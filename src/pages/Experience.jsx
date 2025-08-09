@@ -3,17 +3,18 @@ import Title from "../components/Title";
 
 function Experience() {
   return (
-    <section className="-mt-10"id="experience">
-      <div className="py-16 px-4 md:px-20 m-20">
+    <section id="experience">
+      <div className="py-16 px-4 md:px-20 md:m-20">
         <Title title="Experience" />
+
         {/* CBA */}
-        <div className="border border-white/30 hover:border-white text-white mx-20 mt-10 px-7 py-2 transition duration-300 transform hover:scale-102 rounded-3xl">
+        <div className="border border-white/30 hover:border-white text-white md:mx-20 md:px-7 py-2 transition duration-300 transform hover:scale-102 rounded-3xl">
           {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6">
-            {/* Image role and company*/}
-            <div className="flex items-start sm:items-center gap-4">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
+            {/* Image, role and company*/}
+            <div className="flex justify-center items-start sm:items-center gap-4">
               {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-12 w-12">
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-8 w-8 md:h-12 md:w-12 ">
                 <img
                   className="aspect-square h-full w-full object-cover"
                   src="cba.png"
@@ -22,24 +23,24 @@ function Experience() {
               </span>
               {/* Role and Company */}
               <div>
-                <h1 className="font-bold text-2xl">
+                <h1 className="font-bold text-xl md:text-2xl">
                   Software Developer Apprentice
                 </h1>
-                <p className="text-base">
+                <p className="text-left text-white/80">
                   Commonwealth Bank of Australia, India
                 </p>
               </div>
             </div>
 
             {/* Duration and Location */}
-            <div className="text-left sm:text-right">
-              <p className="font-bold">July 2025 - Present</p>
-              <p>Bengaluru, India</p>
+            <div className="text-center sm:text-right">
+              <p className="md:font-bold">July 2025 - Present</p>
+              <p className="text-white/80">Bengaluru, India</p>
             </div>
           </div>
 
           {/* Description List */}
-          <div className="px-6 pb-4">
+          <div className="px-3 md:px-6 pb-4">
             <ul className="list-disc pl-8 space-y-2 text-sm sm:text-base">
               <li>
                 I am currently undergoing a hands-on apprenticeship focused on
@@ -63,13 +64,13 @@ function Experience() {
         </div>
 
         {/* Devops */}
-        <div className="border border-white/30 hover:border-white text-white mx-20 mt-5 px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
+        <div className="border border-white/30 hover:border-white text-white md:mx-20 mt-5 md:px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
           {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
             {/* Image role and company*/}
-            <div className="flex items-start sm:items-center gap-4">
+            <div className="flex justify-center items-start sm:items-center gap-4">
               {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-12 w-12">
+              <span className="relative flex shrink-0 rounded-full overflow-hidden w-8 h-8 md:h-12 md:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
                   src="elevateLabs.png"
@@ -78,14 +79,14 @@ function Experience() {
               </span>
               {/* Role and Company */}
               <div>
-                <h1 className="font-bold text-2xl">DevOps Intern</h1>
-                <p className="text-base">Elevate Labs</p>
+                <h1 className="font-bold text-xl md:text-2xl">DevOps Intern</h1>
+                <p className="text-left">Elevate Labs</p>
               </div>
             </div>
 
             {/* Duration and Location */}
-            <div className="text-left sm:text-right">
-              <p className="font-bold">May 2025 - June 2025</p>
+            <div className="text-center sm:text-right">
+              <p className="md:font-bold">May 2025 - June 2025</p>
               <p>Bengaluru, India</p>
             </div>
           </div>
@@ -116,13 +117,13 @@ function Experience() {
         </div>
 
         {/* SIC */}
-        <div className="border border-white/30 hover:border-white text-white mx-20 mt-5 px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
+        <div className="border border-white/30 hover:border-white text-white md:mx-20 mt-5 md:px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
           {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6">
+          <div className="flex flex-col  sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
             {/* Image role and company*/}
-            <div className="flex items-start sm:items-center gap-4">
+            <div className="flex justify-center items-start sm:items-center gap-4">
               {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-12 w-12">
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-8 w-8 md:h-12 md:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
                   src="sic.png"
@@ -131,14 +132,18 @@ function Experience() {
               </span>
               {/* Role and Company */}
               <div>
-                <h1 className="font-bold text-2xl">Trainee - Python & IoT</h1>
-                <p className="text-base">Samsung Innovation Campus</p>
+                <h1 className="font-bold text-xl md:text-2xl">
+                  Trainee - Python & IoT
+                </h1>
+                <p className="text-center md:text-left">
+                  Samsung Innovation Campus
+                </p>
               </div>
             </div>
 
             {/* Duration and Location */}
-            <div className="text-left sm:text-right">
-              <p className="font-bold">Sept 2024 - Feb 2025</p>
+            <div className="text-center sm:text-right">
+              <p className="md:font-bold">Sept 2024 - Feb 2025</p>
               <p>Bengaluru, India</p>
             </div>
           </div>
@@ -168,13 +173,13 @@ function Experience() {
         </div>
 
         {/* Web dev */}
-        <div className="border border-white/30 hover:border-white text-white mx-20 mt-5 px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
+        <div className="border border-white/30 hover:border-white text-white md:mx-20 mt-5 md:px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
           {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
             {/* Image role and company*/}
-            <div className="flex items-start sm:items-center gap-4">
+            <div className="flex justify-center items-start sm:items-center gap-4">
               {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-12 w-12">
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-8 w-8 md:h-12 md:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
                   src="varcons.png"
@@ -183,14 +188,16 @@ function Experience() {
               </span>
               {/* Role and Company */}
               <div>
-                <h1 className="font-bold text-2xl">Web Developer Intern</h1>
-                <p className="text-base">Varcons Technologies</p>
+                <h1 className="font-bold text-xl md:text-2xl">
+                  Web Developer Intern
+                </h1>
+                <p className="text-left">Varcons Technologies</p>
               </div>
             </div>
 
             {/* Duration and Location */}
-            <div className="text-left sm:text-right">
-              <p className="font-bold">May 2024 - June 2024</p>
+            <div className="text-center sm:text-right ">
+              <p className="md:font-bold">May 2024 - June 2024</p>
               <p>Bengaluru, India</p>
             </div>
           </div>
@@ -216,7 +223,8 @@ function Experience() {
             </ul>
           </div>
         </div>
-        <div className="flex justify-center mt-20">
+        {/* scroll down */}
+        {/* <div className="flex justify-center mt-20">
           <a
             href="#skills"
             aria-label="Scroll Down"
@@ -224,7 +232,7 @@ function Experience() {
           >
             ↓
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

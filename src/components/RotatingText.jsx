@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 
 function RotatingText() {
   const phrases = [
-    "Final Year Information Science Student",
-    "Software Developer Apprentice",
+    "Information Science Student",
+    "Aspiring Full Stack Developer",
     "Aspiring DevOps Engineer",
   ];
 
@@ -26,7 +26,7 @@ function RotatingText() {
 
   return (
     <h2
-      className={`text-2xl md:text-3xl bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-transparent font-semibold transition-opacity duration-500 ease-in-out ${
+      className={` text-xl md:text-3xl bg-gradient-to-r from-blue-400 via-purple-500 to-red-400 bg-clip-text text-transparent font-semibold transition-opacity duration-500 ease-in-out ${
         visible ? "opacity-100" : "opacity-0"
       }`}
     >

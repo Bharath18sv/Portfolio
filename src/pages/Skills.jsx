@@ -3,13 +3,13 @@ import Title from "../components/Title";
 
 function Skills() {
   return (
-    <section id="skills" className="">
-      <div className="px-4 md:px-20 m-20">
+    <section id="skills" className="pt-5">
+      <div className="px-4 md:px-20 md:m-20">
         <Title title="Skills & Tools" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 text-white mx-20 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-white md:mx-20 gap-5">
           {/* Programming Languages */}
-          <div className="border border-white/30 hover:border-white transform transition hover:scale-102 duration-300 rounded-2xl mt-10 pb-2">
+          <div className="border border-white/30 hover:border-white transform transition hover:scale-102 duration-300 rounded-2xl pb-2">
             {/* Title */}
             <h1 className=" text-center m-4 font-bold text-xl">
               Programming Languages
@@ -50,7 +50,7 @@ function Skills() {
           </div>
 
           {/* Frontend */}
-          <div className="border border-white/30 hover:border-white transform transition hover:scale-102 duration-300 rounded-2xl mt-10 pb-2">
+          <div className="border border-white/30 hover:border-white transform transition hover:scale-102 duration-300 rounded-2xl pb-2">
             {/* Title */}
             <h1 className=" text-center m-4 font-bold text-xl">
               Frontend Frameworks
@@ -217,41 +217,25 @@ function Skills() {
             <div className="flex justify-center flex-wrap gap-4">
               {/* EC2 */}
               <div className="flex flex-col items-center md:flex-row gap-2 px-4 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="EC2.png"
-                  alt="EC2"
-                  className="w-5 h-5"
-                />
+                <img src="EC2.png" alt="EC2" className="w-5 h-5" />
                 <span className="text-sm font-medium">EC2</span>
               </div>
 
               {/* IAM */}
               <div className="flex flex-col items-center md:flex-row gap-2 px-4 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="IAM.png"
-                  alt="IAM"
-                  className="w-5 h-5 rounded-full"
-                />
+                <img src="IAM.png" alt="IAM" className="w-5 h-5 rounded-full" />
                 <span className="text-sm font-medium">IAM</span>
               </div>
 
               {/* EFS */}
               <div className="flex flex-col items-center md:flex-row gap-2 px-4 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="EFS.png"
-                  alt="EFS"
-                  className="w-5 h-5"
-                />
+                <img src="EFS.png" alt="EFS" className="w-5 h-5" />
                 <span className="text-sm font-medium">EFS</span>
               </div>
 
               {/* S3 */}
               <div className="flex flex-col items-center md:flex-row gap-2 px-4 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="S3.png"
-                  alt="S3"
-                  className="w-5 h-5"
-                />
+                <img src="S3.png" alt="S3" className="w-5 h-5" />
                 <span className="text-sm font-medium">S3</span>
               </div>
 
@@ -267,21 +251,13 @@ function Skills() {
 
               {/* VPC */}
               <div className="flex flex-col items-center md:flex-row gap-2 px-4 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="VPC.png"
-                  alt="VPC"
-                  className="w-5 h-5"
-                />
+                <img src="VPC.png" alt="VPC" className="w-5 h-5" />
                 <span className="text-sm font-medium">VPC</span>
               </div>
 
               {/* Route53 */}
               <div className="flex flex-col items-center md:flex-row gap-2 px-4 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="Route53.png"
-                  alt="Route53"
-                  className="w-5 h-5"
-                />
+                <img src="Route53.png" alt="Route53" className="w-5 h-5" />
                 <span className="text-sm font-medium">Route53</span>
               </div>
             </div>

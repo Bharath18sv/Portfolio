@@ -7,9 +7,9 @@ export default function Header() {
       <header className="fixed top-0 w-full backdrop-blur-lg z-50">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           {/* Navigation Links */}
-          <ul className="flex flex:col sm:flex-row justify-evenly gap-6 text-blue-300 text-lg font-medium w-full pt-1">
+          <ul className="flex flex-wrap flex:col sm:flex-row text-sm justify-evenly gap-6 text-blue-300 md:text-lg font-medium w-full pt-1">
             <li>
-              <a href="/" className="hover:text-white transition">
+              <a href="#home" className="hover:text-white transition">
                 Home
               </a>
             </li>

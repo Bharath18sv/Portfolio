@@ -3,13 +3,13 @@ import Title from "../components/Title";
 
 function AboutMe() {
   return (
-    <section className=" py-16 px-4 md:px-20 m-20 -mb-10" id="about">
-      <div className="max-w-5xl mx-auto space-y-10">
+    <section id="about" className="">
+      <div className="md:py-10 md:m-20">
         {/* Heading */}
         <Title title="About Me" />
 
         {/* Paragraphs */}
-        <div className="space-y-6 text-lg leading-relaxed text-white border border-white/30 hover:border-white transform transition duration-300 hover:scale-102 mx-20 p-10 rounded-2xl">
+        <div className="flex flex-col space-y-6 text-lg leading-relaxed text-white border border-white/30 hover:border-white transform transition duration-300 hover:scale-102 m-5 md:mx-40 p-10 rounded-2xl">
           <p>
             Hi, I’m <strong>Bharath S V</strong>, a Final Year Information
             Science student at Don Bosco Institute of Technology. I'm currently
@@ -44,7 +44,9 @@ function AboutMe() {
             </span>
           </p>
         </div>
-        <div className="flex justify-center mt-20">
+
+        {/* scroll down */}
+        {/* <div className="flex justify-center mt-20">
           <a
             href="#education"
             aria-label="Scroll Down"
@@ -52,7 +54,7 @@ function AboutMe() {
           >
             ↓
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
