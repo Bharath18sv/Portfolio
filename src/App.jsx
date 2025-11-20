@@ -8,6 +8,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 import Footer from "./components/Footer";
+import Certifications from "./pages/Certifications";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         <Skills />
       </section>
       <section id="projects">{/* <Projects /> */}</section>
+      <section id="certifications">
+        <Certifications />
+      </section>
       <section id="contact">
         <Contact />
       </section>

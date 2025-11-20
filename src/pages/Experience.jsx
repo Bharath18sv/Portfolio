@@ -3,18 +3,18 @@ import Title from "../components/Title";
 
 function Experience() {
   return (
-    <section id="experience">
-      <div className="py-16 px-4 md:px-20 md:m-20">
+    <section id="experience" className="py-12 px-4 md:py-16">
+      <div className="md:px-4 md:m-4 lg:m-20">
         <Title title="Experience" />
 
         {/* CBA */}
-        <div className="border border-white/30 hover:border-white text-white md:mx-20 md:px-7 py-2 transition duration-300 transform hover:scale-102 rounded-3xl">
+        <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
           {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
             {/* Image, role and company*/}
-            <div className="flex justify-center items-start sm:items-center gap-4">
+            <div className="flex justify-center items-start sm:items-center gap-3 sm:gap-4">
               {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-8 w-8 md:h-12 md:w-12 ">
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
                   src="cba.png"
@@ -23,10 +23,10 @@ function Experience() {
               </span>
               {/* Role and Company */}
               <div>
-                <h1 className="font-bold text-xl md:text-2xl">
+                <h1 className="font-bold text-lg sm:text-xl md:text-2xl">
                   Software Developer Apprentice
                 </h1>
-                <p className="text-left text-white/80">
+                <p className="text-left text-white/80 text-sm sm:text-base">
                   Commonwealth Bank of Australia, India
                 </p>
               </div>
@@ -34,14 +34,16 @@ function Experience() {
 
             {/* Duration and Location */}
             <div className="text-center sm:text-right">
-              <p className="md:font-bold">July 2025 - Present</p>
-              <p className="text-white/80">Bengaluru, India</p>
+              <p className="font-semibold text-sm sm:text-base">
+                July 2025 - Present
+              </p>
+              <p className="text-white/80 text-sm">Remote</p>
             </div>
           </div>
 
           {/* Description List */}
-          <div className="px-3 md:px-6 pb-4">
-            <ul className="list-disc pl-8 space-y-2 text-sm sm:text-base">
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+            <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
                 I am currently undergoing a hands-on apprenticeship focused on
                 the MERN Stack, Data Engineering, Cloud Computing, and AI
@@ -51,10 +53,10 @@ function Experience() {
                 frontend and backend technologies.
               </li>
               <li>
-                As part of the apprenticeship, I’m actively contributing to live
+                As part of the apprenticeship, I'm actively contributing to live
                 projects by developing full-stack modules, assisting in managing
                 cloud infrastructure, and applying basic machine learning models
-                to enhance application intelligence. I’m also learning to use
+                to enhance application intelligence. I'm also learning to use
                 DevOps tools like Docker and CI/CD pipelines to streamline
                 development workflows and gain a deeper understanding of
                 real-world software delivery practices.
@@ -63,79 +65,26 @@ function Experience() {
           </div>
         </div>
 
-        {/* Devops */}
-        <div className="border border-white/30 hover:border-white text-white md:mx-20 mt-5 md:px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
-          {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
-            {/* Image role and company*/}
-            <div className="flex justify-center items-start sm:items-center gap-4">
-              {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden w-8 h-8 md:h-12 md:w-12">
-                <img
-                  className="aspect-square h-full w-full object-cover"
-                  src="elevateLabs.png"
-                  alt="CBA services"
-                />
-              </span>
-              {/* Role and Company */}
-              <div>
-                <h1 className="font-bold text-xl md:text-2xl">DevOps Intern</h1>
-                <p className="text-left">Elevate Labs</p>
-              </div>
-            </div>
-
-            {/* Duration and Location */}
-            <div className="text-center sm:text-right">
-              <p className="md:font-bold">May 2025 - June 2025</p>
-              <p>Bengaluru, India</p>
-            </div>
-          </div>
-
-          {/* Description List */}
-          <div className="px-6 pb-4">
-            <ul className="list-disc pl-8 space-y-2 text-sm sm:text-base">
-              <li>
-                Led and contributed to real-world DevOps projects, gaining
-                hands-on experience with end-to-end software development
-                workflows. This included configuring and automating CI/CD
-                pipelines using tools like GitHub Actions, Jenkins, and Docker,
-                as well as managing cloud infrastructure on AWS to support
-                scalable and efficient deployments across different
-                environments.
-              </li>
-              <li>
-                Sharpened analytical thinking and problem-solving skills by
-                identifying inefficiencies in deployment workflows and
-                implementing automation strategies to reduce manual intervention
-                and errors. This involved troubleshooting build failures,
-                optimizing Docker containers, and ensuring robust version
-                control using Git and GitHub, resulting in smoother, faster, and
-                more reliable development cycles.
-              </li>
-            </ul>
-          </div>
-        </div>
-
         {/* SIC */}
-        <div className="border border-white/30 hover:border-white text-white md:mx-20 mt-5 md:px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
+        <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 mt-5 sm:mt-6 px-4 sm:px-6 py-4 transition transform hover:scale-[1.02] duration-300 rounded-2xl">
           {/* Top Section */}
-          <div className="flex flex-col  sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
             {/* Image role and company*/}
-            <div className="flex justify-center items-start sm:items-center gap-4">
+            <div className="flex justify-center items-start sm:items-center gap-3 sm:gap-4">
               {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-8 w-8 md:h-12 md:w-12">
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
                   src="sic.png"
-                  alt="CBA services"
+                  alt="Samsung Innovation Campus"
                 />
               </span>
               {/* Role and Company */}
               <div>
-                <h1 className="font-bold text-xl md:text-2xl">
+                <h1 className="font-bold text-lg sm:text-xl md:text-2xl">
                   Trainee - Python & IoT
                 </h1>
-                <p className="text-center md:text-left">
+                <p className="text-center sm:text-left text-sm sm:text-base">
                   Samsung Innovation Campus
                 </p>
               </div>
@@ -143,14 +92,16 @@ function Experience() {
 
             {/* Duration and Location */}
             <div className="text-center sm:text-right">
-              <p className="md:font-bold">Sept 2024 - Feb 2025</p>
-              <p>Bengaluru, India</p>
+              <p className="font-semibold text-sm sm:text-base">
+                Sept 2024 - Feb 2025
+              </p>
+              <p className="text-sm">Bengaluru, India</p>
             </div>
           </div>
 
           {/* Description List */}
-          <div className="px-6 pb-4">
-            <ul className="list-disc pl-8 space-y-2 text-sm sm:text-base">
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+            <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
                 Completed comprehensive training in Python,DSA , and
                 problem-solving, with an emphasis on building real-world,
@@ -171,68 +122,6 @@ function Experience() {
             </ul>
           </div>
         </div>
-
-        {/* Web dev */}
-        <div className="border border-white/30 hover:border-white text-white md:mx-20 mt-5 md:px-7 py-2 transition transform hover:scale-102 duration-300 rounded-3xl">
-          {/* Top Section */}
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between p-6 gap-2">
-            {/* Image role and company*/}
-            <div className="flex justify-center items-start sm:items-center gap-4">
-              {/* image */}
-              <span className="relative flex shrink-0 rounded-full overflow-hidden h-8 w-8 md:h-12 md:w-12">
-                <img
-                  className="aspect-square h-full w-full object-cover"
-                  src="varcons.png"
-                  alt="CBA services"
-                />
-              </span>
-              {/* Role and Company */}
-              <div>
-                <h1 className="font-bold text-xl md:text-2xl">
-                  Web Developer Intern
-                </h1>
-                <p className="text-left">Varcons Technologies</p>
-              </div>
-            </div>
-
-            {/* Duration and Location */}
-            <div className="text-center sm:text-right ">
-              <p className="md:font-bold">May 2024 - June 2024</p>
-              <p>Bengaluru, India</p>
-            </div>
-          </div>
-
-          {/* Description List */}
-          <div className="px-6 pb-4">
-            <ul className="list-disc pl-8 space-y-2 text-sm sm:text-base">
-              <li>
-                Developed and optimized responsive web interfaces using HTML,
-                CSS, and JavaScript, ensuring seamless performance across
-                various devices and screen sizes. Focused on creating clean,
-                accessible, and user-friendly layouts while following modern
-                design principles and best practices for cross-browser
-                compatibility.
-              </li>
-              <li>
-                Designed and implemented reusable UI components to improve
-                front-end performance, consistency, and code maintainability.
-                Leveraged modular coding techniques to reduce redundancy and
-                support scalable development, enabling faster feature updates
-                and easier collaboration across the team.
-              </li>
-            </ul>
-          </div>
-        </div>
-        {/* scroll down */}
-        {/* <div className="flex justify-center mt-20">
-          <a
-            href="#skills"
-            aria-label="Scroll Down"
-            className="animate-bounce text-white text-3xl hover:text-blue-400 transition cursor-pointer"
-          >
-            ↓
-          </a>
-        </div> */}
       </div>
     </section>
   );

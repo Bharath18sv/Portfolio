@@ -33,9 +33,14 @@ export default function Header() {
                 Skills
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#projects" className="hover:text-white transition">
                 Projects
+              </a>
+            </li> */}
+            <li>
+              <a href="#certifications" className="hover:text-white transition">
+                Certifications
               </a>
             </li>
             <li>

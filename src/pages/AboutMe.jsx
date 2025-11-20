@@ -3,15 +3,15 @@ import Title from "../components/Title";
 
 function AboutMe() {
   return (
-    <section id="about" className="">
-      <div className="md:py-10 md:m-20">
+    <section id="about" className="py-12 px-4 md:py-16">
+      <div className="md:px-4 md:m-4 lg:m-20">
         {/* Heading */}
         <Title title="About Me" />
 
         {/* Paragraphs */}
-        <div className="flex flex-col space-y-6 text-lg leading-relaxed text-white border border-white/30 hover:border-white transform transition duration-300 hover:scale-102 m-5 md:mx-40 p-10 rounded-2xl">
+        <div className="flex flex-col space-y-5 sm:space-y-6 text-base sm:text-lg leading-relaxed text-white border border-white/30 hover:border-white transform transition duration-300 hover:scale-[1.02] m-4 sm:m-5 md:mx-10 lg:mx-40 p-6 sm:p-8 md:p-10 rounded-2xl">
           <p>
-            Hi, I’m <strong>Bharath S V</strong>, a Final Year Information
+            Hi, I'm <strong>Bharath S V</strong>, a Final Year Information
             Science student at Don Bosco Institute of Technology. I'm currently
             a{" "}
             <strong className="text-blue-400">
@@ -37,24 +37,13 @@ function AboutMe() {
           </p>
 
           <p>
-            I’m always excited to connect with like-minded individuals and teams
+            I'm always excited to connect with like-minded individuals and teams
             —{" "}
             <span className="text-blue-400 font-medium">
-              let’s connect and build something impactful!
+              let's connect and build something impactful!
             </span>
           </p>
         </div>
-
-        {/* scroll down */}
-        {/* <div className="flex justify-center mt-20">
-          <a
-            href="#education"
-            aria-label="Scroll Down"
-            className="animate-bounce text-white text-3xl hover:text-blue-400 transition cursor-pointer"
-          >
-            ↓
-          </a>
-        </div> */}
       </div>
     </section>
   );

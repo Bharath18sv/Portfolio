@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function RotatingText() {
   const phrases = [
     "Information Science Student",
-    "Aspiring Full Stack Developer",
+    "Aspiring Software Developer",
     "Aspiring DevOps Engineer",
   ];
 
