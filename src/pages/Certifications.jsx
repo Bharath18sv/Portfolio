@@ -7,13 +7,13 @@ function Certifications() {
     {
       id: 8,
       imagePath: "/certifications/PearlThoughts-Certificate.png",
-      name: "Internship Certificate",
+      name: "Frontend Development",
       organization: "PearlThoughts",
     },
     {
       id: 2,
       imagePath: "/certifications/Devops-certificate.png",
-      name: "DevOps Certificate",
+      name: "DevOps",
       organization: "Elevate Labs",
     },
     {
