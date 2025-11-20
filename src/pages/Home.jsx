@@ -62,6 +62,7 @@ function Home() {
             {/* View Resume button */}
             <a
               href="/resume.pdf"
+              target="_blank"
               className="px-6 py-3 md:px-8 md:py-4 rounded-4xl text-white text-base md:text-lg bg-blue-400 hover:bg-blue-500 transform hover:scale-105 transition duration-300 ease-in-out cursor-pointer text-center"
             >
               View Resume
