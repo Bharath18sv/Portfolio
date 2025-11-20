@@ -22,6 +22,8 @@ function Contact() {
             <div className="m-3">
               <a
                 href="https://www.linkedin.com/in/bharath-s-v"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex flex-row justify-center gap-3 border border-white/30 hover:border-white transition duration-300 transform hover:scale-102 p-3 rounded"
               >
                 <FaLinkedin className="w-5 h-7 text-blue-400" />
@@ -33,6 +35,8 @@ function Contact() {
             <div className="m-3">
               <a
                 href="https://github.com/Bharath18sv"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex flex-row justify-center gap-3 border border-white/30 hover:border-white transition duration-300 transform hover:scale-102 p-3 rounded"
               >
                 <FaGithub className="w-5 h-7" />
@@ -44,6 +48,8 @@ function Contact() {
             <div className="m-3">
               <a
                 href="https://www.instagram.com/_bharath_sv/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex flex-row justify-center gap-3 border border-white/30 hover:border-white transition duration-300 p-3 rounded transform hover:scale-105 cursor-pointer"
               >
                 <FaInstagram className="w-5 h-7 text-violet-500" />
@@ -63,6 +69,8 @@ function Contact() {
             <div className="m-3">
               <a
                 href="tel:+918073012368"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex flex-row justify-center gap-3 border border-white/30 hover:border-white transition duration-300 transform hover:scale-102 p-3 rounded cursor-pointer"
               >
                 <FaPhoneAlt className="w-5 h-7 text-green-600" />
