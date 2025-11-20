@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import Experience from "./pages/Experience";
 import Skills from "./pages/Skills";
-import Projects from "./pages/Projects";
+// import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 import Footer from "./components/Footer";
@@ -28,9 +28,7 @@ function App() {
       <section id="skills">
         <Skills />
       </section>
-      <section id="projects">
-        {/* <Projects /> */}
-      </section>
+      <section id="projects">{/* <Projects /> */}</section>
       <section id="contact">
         <Contact />
       </section>
