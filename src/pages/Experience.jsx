@@ -7,8 +7,68 @@ function Experience() {
       <div className="md:px-4 md:m-4 lg:m-20">
         <Title title="Experience" />
 
-        {/* CBA */}
+        {/* Johnson Controls */}
         <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
+          {/* Top Section */}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+            {/* Image, role and company*/}
+            <div className="flex justify-center items-start sm:items-center gap-3 sm:gap-4">
+              {/* image */}
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
+                <img
+                  className="aspect-square h-full w-full object-cover"
+                  src="JCI.png"
+                  alt="Johnson Controls"
+                />
+              </span>
+              {/* Role and Company */}
+              <div>
+                <h1 className="font-bold text-lg sm:text-xl md:text-2xl">
+                  IT Intern
+                </h1>
+                <p className="text-left text-white/80 text-sm sm:text-base">
+                  Johnson Controls
+                </p>
+              </div>
+            </div>
+
+            {/* Duration and Location */}
+            <div className="text-center sm:text-right">
+              <p className="font-semibold text-sm sm:text-base">
+                Jan 2026 - Present
+              </p>
+              <p className="text-white/80 text-sm">Hybrid</p>
+            </div>
+          </div>
+
+          {/* Description List */}
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+            <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
+              <li>
+                Provided end-to-end administration and troubleshooting for
+                Microsoft 365, Microsoft Teams, and Teams Phone System
+                environments by analysing logs, configurations, and service
+                dependencies to resolve access, collaboration, and telephony
+                issues across distributed enterprise systems. Managed user
+                requests through ServiceNow, including mailbox administration,
+                Distribution Group management, Teams configuration updates, and
+                access modifications while consistently meeting SLA targets.
+              </li>
+              <li>
+                Administered the NICE CXone contact center platform by
+                performing user provisioning, role-based access control updates,
+                and operational support. Monitored Voice Quality Metrics (VQM),
+                real-time call analytics, and agent performance dashboards to
+                proactively identify, investigate, and reduce call connectivity
+                and quality issues, improving overall contact center reliability
+                and user experience.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* CBA */}
+        <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 mt-5 sm:mt-6 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
           {/* Top Section */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
             {/* Image, role and company*/}
@@ -35,7 +95,7 @@ function Experience() {
             {/* Duration and Location */}
             <div className="text-center sm:text-right">
               <p className="font-semibold text-sm sm:text-base">
-                July 2025 - Present
+                July 2025 - December 2025
               </p>
               <p className="text-white/80 text-sm">Remote</p>
             </div>
