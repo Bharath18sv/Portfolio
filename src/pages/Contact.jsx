@@ -87,7 +87,7 @@ function Contact() {
             <div className="m-2 sm:m-3 flex flex-row justify-center gap-3 border border-white/30 hover:border-white transition duration-300 transform hover:scale-[1.02] p-3 rounded">
               <FaMapMarkerAlt className="w-4 h-6 sm:w-5 sm:h-7 text-red-500" />
               <span className="text-base sm:text-lg font-bold">
-                Tumkur, Karnataka
+                Bengaluru, Karnataka
               </span>
             </div>
           </div>
