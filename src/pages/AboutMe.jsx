@@ -9,9 +9,9 @@ function AboutMe() {
         <Title title="About Me" />
 
         {/* Paragraphs */}
-        <div className="flex flex-col space-y-5 sm:space-y-6 text-base sm:text-lg leading-relaxed text-white border border-white/30 hover:border-white transform transition duration-300 hover:scale-[1.02] m-4 sm:m-5 md:mx-10 lg:mx-40 p-6 sm:p-8 md:p-10 rounded-2xl">
+        <div className="flex flex-col space-y-5 sm:space-y-6 text-base sm:text-lg leading-relaxed  text-white/80 border border-white/30 hover:border-white transform transition duration-300 hover:scale-[1.02] m-4 sm:m-5 md:mx-10 lg:mx-40 p-6 sm:p-8 md:p-10 rounded-2xl">
           <p>
-            Hi, I'm <strong>Bharath S V</strong>, a Information
+            Hi, I'm <span className="text-white font-bold">Bharath S V</span>, an Information
             Science Graduate from Don Bosco Institute of Technology. I'm passionate about software development and always eager to learn and grow. I bring strong communication, teamwork, and quick learning abilities
             to every environment I work in.
           </p>

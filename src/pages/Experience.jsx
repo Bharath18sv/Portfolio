@@ -1,6 +1,10 @@
 import React from "react";
 import Title from "../components/Title";
 
+const Highlight = ({ children }) => (
+  <span className="text-white font-bold">{children}</span>
+);
+
 function Experience() {
   return (
     <section id="experience" className="py-12 px-4 md:py-16">
@@ -42,20 +46,18 @@ function Experience() {
           </div>
 
           {/* Description List */}
-          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3 text-white/80">
             <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
-                Provided end-to-end administration and troubleshooting for
-                Microsoft 365, Microsoft Teams, and Teams Phone System
-                environments by analysing logs, configurations, and service
+                Provided end-to-end administration and troubleshooting for <Highlight>Microsoft 365</Highlight>, <Highlight>Microsoft Teams</Highlight>, and <Highlight>Teams Phone</Highlight> System environments by analysing logs, configurations, and service
                 dependencies to resolve access, collaboration, and telephony
                 issues across distributed enterprise systems. Managed user
-                requests through ServiceNow, including mailbox administration,
+                requests through <Highlight>ServiceNow</Highlight>, including mailbox administration,
                 Distribution Group management, Teams configuration updates, and
                 access modifications while consistently meeting SLA targets.
               </li>
               <li>
-                Administered the NICE CXone contact center platform by
+                Administered the <Highlight>NICE CXone</Highlight> contact center platform by
                 performing user provisioning, role-based access control updates,
                 and operational support. Monitored Voice Quality Metrics (VQM),
                 real-time call analytics, and agent performance dashboards to
@@ -102,13 +104,13 @@ function Experience() {
           </div>
 
           {/* Description List */}
-          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3 text-white/80">
             <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
-                Developed and maintained scalable Node.js microservices as part of an event-driven automation platform, where I customized text-to-speech (TTS) and speech-to-text (STT) pipelines to support AI-powered text and image generation based on user inputs. Additionally, I integrated enterprise and third-party applications such as LinkedIn, Slack, and other external services using OAuth 2.0 and REST APIs, enabling seamless automated content publishing and cross-platform workflow orchestration.
+                Developed and maintained scalable <Highlight>Node.js</Highlight> microservices as part of an event-driven automation platform, where I customized text-to-speech (TTS) and speech-to-text (STT) pipelines to support AI-powered text and image generation based on user inputs. Additionally, I integrated enterprise and third-party applications such as LinkedIn, Slack, and other external services using <Highlight>OAuth 2.0</Highlight> and <Highlight>REST</Highlight> APIs, enabling seamless automated content publishing and cross-platform workflow orchestration.
               </li>
               <li>
-                Contributed to the development of a React Native mobile application by implementing offline data synchronization capabilities, AI-powered speech-to-notes processing, and contact management features. The application also leveraged local Large Language Model (LLM) integration to provide intelligent offline assistance, enhancing user productivity and delivering a robust mobile experience across varying network conditions.
+                Contributed to the development of a <Highlight>React Native</Highlight> mobile application by implementing offline data synchronization capabilities, AI-powered speech-to-notes processing, and contact management features. The application also leveraged local <Highlight>Large Language Model (LLM)</Highlight> integration to provide intelligent offline assistance, enhancing user productivity and delivering a robust mobile experience across varying network conditions.
               </li>
             </ul>
           </div>
@@ -149,10 +151,10 @@ function Experience() {
           </div>
 
           {/* Description List */}
-          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3 text-white/80">
             <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
-                Successfully completed a hands-on apprenticeship focused on JavaScript, Linux, the MERN Stack, and AWS fundamentals. The program provided practical exposure to building and deploying scalable applications while strengthening my understanding of both frontend and backend development concepts.
+                Successfully completed a hands-on apprenticeship focused on <Highlight>JavaScript</Highlight>, <Highlight>Linux</Highlight>, the <Highlight>MERN</Highlight> Stack, and <Highlight>AWS</Highlight> fundamentals. The program provided practical exposure to building and deploying scalable applications while strengthening my understanding of both frontend and backend development concepts.
               </li>
               <li>
                 During the apprenticeship, I worked on real-world projects and gained experience in developing full-stack applications, working with cloud services on AWS, and utilizing Linux-based development environments. As part of the program, I successfully designed and presented two projects, demonstrating my ability to apply technical concepts to solve practical problems and effectively communicate solutions to stakeholders.
@@ -176,7 +178,7 @@ function Experience() {
                 />
               </span>
               {/* Role and Company */}
-              <div>
+              <div className="text-white/80">
                 <h1 className="font-bold text-lg sm:text-xl md:text-2xl">
                   Trainee - Python & IoT
                 </h1>
@@ -196,10 +198,10 @@ function Experience() {
           </div>
 
           {/* Description List */}
-          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3 text-white/80">
             <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
-                Completed comprehensive training in Python, DSA, and
+                Completed comprehensive training in <Highlight>Python</Highlight>, <Highlight>DSA</Highlight>, and
                 problem-solving, with an emphasis on building real-world,
                 efficient solutions. The training focused on strengthening core
                 programming concepts, optimizing algorithms, and developing
@@ -208,7 +210,7 @@ function Experience() {
               </li>
               <li>
                 Designed and developed real-time IoT solutions by integrating
-                multiple sensors with Raspberry Pi, ESP32, and ThingSpeak. These
+                multiple sensors with <Highlight>Raspberry Pi</Highlight>, <Highlight>ESP32</Highlight>, and <Highlight>ThingSpeak</Highlight>. These
                 projects involved collecting and transmitting sensor data,
                 implementing real-time monitoring systems, and building
                 end-to-end solutions that bridged hardware and cloud-based
