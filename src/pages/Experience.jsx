@@ -8,7 +8,7 @@ function Experience() {
         <Title title="Experience" />
 
         {/* Johnson Controls */}
-        <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
+        <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 mt-5 sm:mt-6 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
           {/* Top Section */}
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
             {/* Image, role and company*/}
@@ -17,7 +17,7 @@ function Experience() {
               <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
-                  src="JCI.png"
+                  src="experience/JCI-logo.png"
                   alt="Johnson Controls"
                 />
               </span>
@@ -35,7 +35,7 @@ function Experience() {
             {/* Duration and Location */}
             <div className="text-center sm:text-right">
               <p className="font-semibold text-sm sm:text-base">
-                Jan 2026 - Present
+                Jan 2026 - June 2026
               </p>
               <p className="text-white/80 text-sm">Hybrid</p>
             </div>
@@ -67,6 +67,53 @@ function Experience() {
           </div>
         </div>
 
+        {/* THWorks */}
+        <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 mt-5 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
+          {/* Top Section */}
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+            {/* Image, role and company*/}
+            <div className="flex justify-center items-start sm:items-center gap-3 sm:gap-4">
+              {/* image */}
+              <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
+                <img
+                  className="aspect-square h-full w-full object-cover"
+                  src="experience/THWorks.jpeg"
+                  alt="Johnson Controls"
+                />
+              </span>
+              {/* Role and Company */}
+              <div>
+                <h1 className="font-bold text-lg sm:text-xl md:text-2xl">
+                  Software Developer Intern
+                </h1>
+                <p className="text-left text-white/80 text-sm sm:text-base">
+                  THWorks
+                </p>
+              </div>
+            </div>
+
+            {/* Duration and Location */}
+            <div className="text-center sm:text-right">
+              <p className="font-semibold text-sm sm:text-base">
+                Nov 2025 - Jan 2026
+              </p>
+              <p className="text-white/80 text-sm">Bengaluru</p>
+            </div>
+          </div>
+
+          {/* Description List */}
+          <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
+            <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
+              <li>
+                Developed and maintained scalable Node.js microservices as part of an event-driven automation platform, where I customized text-to-speech (TTS) and speech-to-text (STT) pipelines to support AI-powered text and image generation based on user inputs. Additionally, I integrated enterprise and third-party applications such as LinkedIn, Slack, and other external services using OAuth 2.0 and REST APIs, enabling seamless automated content publishing and cross-platform workflow orchestration.
+              </li>
+              <li>
+                Contributed to the development of a React Native mobile application by implementing offline data synchronization capabilities, AI-powered speech-to-notes processing, and contact management features. The application also leveraged local Large Language Model (LLM) integration to provide intelligent offline assistance, enhancing user productivity and delivering a robust mobile experience across varying network conditions.
+              </li>
+            </ul>
+          </div>
+        </div>
+
         {/* CBA */}
         <div className="border border-white/30 hover:border-white text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 mt-5 sm:mt-6 px-4 sm:px-6 py-4 transition duration-300 transform hover:scale-[1.02] rounded-2xl">
           {/* Top Section */}
@@ -77,7 +124,7 @@ function Experience() {
               <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
-                  src="cba.png"
+                  src="experience/cba.png"
                   alt="CBA services"
                 />
               </span>
@@ -105,21 +152,10 @@ function Experience() {
           <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
             <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
-                I am currently undergoing a hands-on apprenticeship focused on
-                the MERN Stack, Data Engineering, Cloud Computing, and AI
-                fundamentals. This program is giving me real-time exposure to
-                building and deploying scalable applications, while allowing me
-                to continuously strengthen my practical skills across both
-                frontend and backend technologies.
+                Successfully completed a hands-on apprenticeship focused on JavaScript, Linux, the MERN Stack, and AWS fundamentals. The program provided practical exposure to building and deploying scalable applications while strengthening my understanding of both frontend and backend development concepts.
               </li>
               <li>
-                As part of the apprenticeship, I'm actively contributing to live
-                projects by developing full-stack modules, assisting in managing
-                cloud infrastructure, and applying basic machine learning models
-                to enhance application intelligence. I'm also learning to use
-                DevOps tools like Docker and CI/CD pipelines to streamline
-                development workflows and gain a deeper understanding of
-                real-world software delivery practices.
+                During the apprenticeship, I worked on real-world projects and gained experience in developing full-stack applications, working with cloud services on AWS, and utilizing Linux-based development environments. As part of the program, I successfully designed and presented two projects, demonstrating my ability to apply technical concepts to solve practical problems and effectively communicate solutions to stakeholders.
               </li>
             </ul>
           </div>
@@ -135,7 +171,7 @@ function Experience() {
               <span className="relative flex shrink-0 rounded-full overflow-hidden h-10 w-10 sm:h-12 sm:w-12">
                 <img
                   className="aspect-square h-full w-full object-cover"
-                  src="sic.png"
+                  src="experience/sic.png"
                   alt="Samsung Innovation Campus"
                 />
               </span>
@@ -163,7 +199,7 @@ function Experience() {
           <div className="px-2 sm:px-4 md:px-6 pb-4 pt-3">
             <ul className="list-disc pl-5 sm:pl-8 space-y-2 text-sm sm:text-base">
               <li>
-                Completed comprehensive training in Python,DSA , and
+                Completed comprehensive training in Python, DSA, and
                 problem-solving, with an emphasis on building real-world,
                 efficient solutions. The training focused on strengthening core
                 programming concepts, optimizing algorithms, and developing

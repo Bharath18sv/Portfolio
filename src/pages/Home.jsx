@@ -1,6 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import RotatingText from "../components/RotatingText";
-import Arrow from "../components/Arrow";
 
 function Home() {
   return (
@@ -12,7 +11,7 @@ function Home() {
       <div className="flex flex-col md:flex-row items-center gap-8 md:gap-10">
         {/* Profile Picture */}
         <img
-          src="/ProfilePic.jpeg"
+          src="/Portfolio-pic-1.JPG"
           alt="Bharath"
           className="w-48 h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 aspect-square object-cover rounded-full shadow-violet-500 shadow-sm border-4 border-violet-400 transition-transform duration-300 ease-in-out cursor-pointer hover:shadow-md hover:scale-105 mt-8 md:mt-0"
         />

@@ -8,6 +8,7 @@ function Skills() {
         <Title title="Skills & Tools" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 text-white mx-2 sm:mx-4 md:mx-10 lg:mx-20 gap-4 sm:gap-5">
+          
           {/* Programming Languages */}
           <div className="border border-white/30 hover:border-white transform transition hover:scale-[1.02] duration-300 rounded-2xl pb-2">
             {/* Title */}
@@ -16,50 +17,112 @@ function Skills() {
             </h1>
 
             {/* skills */}
-            <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
-              {/* Python */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                  alt="Python"
-                  className="w-4 h-4 sm:w-5 sm:h-5"
-                />
-                <span className="text-xs sm:text-sm font-medium">Python</span>
+            <div className="flex flex-col items-center">
+              <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
+                {/* Python */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                    alt="Python"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">Python</span>
+                </div>
+
+                {/* Java */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                    alt="Java"
+                    className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">
+                    Java (Core)
+                  </span>
+                </div>
               </div>
 
-              {/* Java */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                  alt="Java"
-                  className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
-                />
-                <span className="text-xs sm:text-sm font-medium">
-                  Java (Core)
-                </span>
+              <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
+                {/* JavaScript */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    alt="JavaScript"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">
+                    JavaScript
+                  </span>
+                </div>
+
+                {/* TypeScript */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                    alt="TypeScript"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">
+                    TypeScript
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Frontend */}
+          <div className="border border-white/30 hover:border-white transform transition hover:scale-[1.02] duration-300 rounded-2xl pb-2">
+            {/* Title */}
+            <h1 className="text-center m-4 font-bold text-lg sm:text-xl">
+              Frontend Frameworks
+            </h1>
+
+            {/* skills */}
+            <div className="flex flex-col items-center">
+              <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
+                {/* React */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                    alt="React"
+                    className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">React.js</span>
+                </div>
+            
+                {/* React Native */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactnative/reactnative-original.svg"
+                    alt="React"
+                    className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">React Native</span>
+                </div>
               </div>
 
-              {/* JavaScript */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                  alt="JavaScript"
-                  className="w-4 h-4 sm:w-5 sm:h-5"
-                />
-                <span className="text-xs sm:text-sm font-medium">
-                  JavaScript
-                </span>
-              </div>
+              <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
+                {/* Next.js */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+                    alt="Next.js"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">Next.js</span>
+                </div>
 
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-                  alt="TypeScript"
-                  className="w-4 h-4 sm:w-5 sm:h-5"
-                />
-                <span className="text-xs sm:text-sm font-medium">
-                  TypeScript
-                </span>
+                {/* Tailwind */}
+                <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    alt="Tailwind"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
+                  />
+                  <span className="text-xs sm:text-sm font-medium">
+                    Tailwind CSS
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -96,14 +159,14 @@ function Skills() {
               </div>
 
               {/* Mongoose */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+              {/* <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg"
                   alt="Mongoose"
                   className="w-4 h-4 sm:w-5 sm:h-5"
                 />
                 <span className="text-xs sm:text-sm font-medium">Mongoose</span>
-              </div>
+              </div> */}
 
               {/* FastAPI */}
               <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
@@ -116,57 +179,14 @@ function Skills() {
               </div>
 
               {/* Lambda */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+              {/* <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
-                  src="Lambda.png"
+                  src="skills/DevOps/Lambda.png"
                   alt="Lambda"
                   className="w-4 h-4 sm:w-5 sm:h-5"
                 />
                 <span className="text-xs sm:text-sm font-medium">Lambda</span>
-              </div>
-            </div>
-          </div>
-
-          {/* Frontend */}
-          <div className="border border-white/30 hover:border-white transform transition hover:scale-[1.02] duration-300 rounded-2xl pb-2">
-            {/* Title */}
-            <h1 className="text-center m-4 font-bold text-lg sm:text-xl">
-              Frontend Frameworks
-            </h1>
-
-            {/* skills */}
-            <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
-              {/* Tailwind */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-                  alt="Tailwind"
-                  className="w-4 h-4 sm:w-5 sm:h-5"
-                />
-                <span className="text-xs sm:text-sm font-medium">
-                  Tailwind CSS
-                </span>
-              </div>
-
-              {/* React */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-                  alt="React"
-                  className="w-4 h-4 sm:w-5 sm:h-5 rounded-full"
-                />
-                <span className="text-xs sm:text-sm font-medium">React.js</span>
-              </div>
-
-              {/* Next.js */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-                  alt="Next.js"
-                  className="w-4 h-4 sm:w-5 sm:h-5"
-                />
-                <span className="text-xs sm:text-sm font-medium">Next.js</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -200,11 +220,23 @@ function Skills() {
                   PostgreSQL
                 </span>
               </div>
+
+              {/* MySQL */}
+              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                  alt="MySQL"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
+                />
+                <span className="text-xs sm:text-sm font-medium">
+                  MySQL
+                </span>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* AWS */}
+        {/* DevOps */}
         <div className="mx-2 sm:mx-4 md:mx-10 lg:mx-20 text-white mt-5 sm:mt-6">
           <div className="border border-white/30 hover:border-white transform transition hover:scale-[1.02] duration-300 rounded-2xl pb-2">
             {/* Title */}
@@ -214,6 +246,7 @@ function Skills() {
 
             {/* skills */}
             <div className="flex justify-center flex-wrap gap-3 sm:gap-4">
+
               {/* Linux */}
               <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
@@ -223,15 +256,17 @@ function Skills() {
                 />
                 <span className="text-xs sm:text-sm font-medium">Linux</span>
               </div>
+
               {/* Bash */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+              {/* <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
                   alt="Bash"
                   className="w-4 h-4 sm:w-5 sm:h-5"
                 />
                 <span className="text-xs sm:text-sm font-medium">Bash</span>
-              </div>
+              </div> */}
+
               {/* Jenkins */}
               <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
@@ -253,28 +288,47 @@ function Skills() {
               </div>
 
               {/* Git */}
-              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+              {/* <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
                   alt="Git"
                   className="w-4 h-4 sm:w-5 sm:h-5"
                 />
                 <span className="text-xs sm:text-sm font-medium">Git</span>
-              </div>
+              </div> */}
+
               {/* EC2 */}
               <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
                 <img
-                  src="EC2.png"
+                  src="skills/DevOps/EC2.png"
                   alt="EC2"
                   className="w-4 h-4 sm:w-5 sm:h-5"
                 />
                 <span className="text-xs sm:text-sm font-medium">EC2</span>
               </div>
 
+              {/* IAM */}
+              <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                <img
+                  src="skills/DevOps/IAM-logo.svg"
+                  alt="IAM"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
+                />
+                <span className="text-xs sm:text-sm font-medium">IAM</span>
+              </div>
+
               {/* S3 */}
               <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
-                <img src="S3.png" alt="S3" className="w-4 h-4 sm:w-5 sm:h-5" />
+                <img src="skills/DevOps/S3.png" alt="S3" className="w-4 h-4 sm:w-5 sm:h-5" />
                 <span className="text-xs sm:text-sm font-medium">S3</span>
+              </div>
+               <div className="flex flex-col items-center sm:flex-row gap-2 px-3 py-1 m-2 bg-gray-700 hover:bg-blue-400 text-white rounded-2xl transition duration-300">
+                <img
+                  src="skills/DevOps/VPC-logo.jpeg"
+                  alt="VPC"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
+                />
+                <span className="text-xs sm:text-sm font-medium">VPC</span>
               </div>
             </div>
           </div>
